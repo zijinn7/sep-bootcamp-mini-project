@@ -1,1 +1,1 @@
-# sep-bootcamp-mini-project
+# README: sep-bootcamp-mini-project
