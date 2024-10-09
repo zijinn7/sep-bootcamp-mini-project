@@ -13,6 +13,10 @@
   height: 100vh;
 }
 
+p {
+  font-weight: lighter;
+}
+
 .left-container {
   padding-left: 100px;
   padding-right: 40px;
@@ -22,16 +26,17 @@
   align-items:flex-start;
   width: 50%;
   height: 100%;
-  background-color: gray;
+  /* background-color: gray; */
 }
 
 .left-container h1 {
   font-size: 3rem;
   text-align: left;
+  margin-bottom: 8px;
 }
 
 .buttons {
-  margin-top: 20px;
+  margin-top: 24px;
   padding-left: 0;
   display: flex;
   flex-direction: row;
@@ -39,23 +44,36 @@
   align-items: center;
   width: 100%;
   height: 100px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 #link-github, #link-linkedin {
+  height: 28px;
+  width: 112px;
   padding: 8px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin-right: 20px;
-  background-color: blue;
+  margin-right: 12px;
+  background-color: #4384D1;
   color: white;
   font-size: small;
+  border: 1px solid #4384D1;
+  border-radius: 3px;
 }
 
+#link-linkedin {
+  background-color: white;
+  color:#4384D1;
+}
 #link-github img {
-  margin-left: 8px;
   width: 20px;
   height: 20px;
+}
+
+#link-linkedin img {
+  width: 16px;
+  height: 16px;
 }
 
 
@@ -70,8 +88,11 @@
 }
 
 .image-container {
-  width: 50%;
-  background-color: red;
-  height: 50%;
+  width: 80%;
+  background-color: #D9D9D9;
+  height: 75%;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
